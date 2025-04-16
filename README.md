@@ -1,18 +1,9 @@
-## Getting Started
+## Trabalho de Biblioteca com conexão de banco de dados
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Neste trabalho foi implementado uma conexão com banco de dados simulando uma biblioteca, contem  nele uma UI de linha para um CRUD simples.
 
-## Folder Structure
+## Conceitos basicos de POO utilizados
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- `Hierarquia`: A classe pessoa tem cpf e nome tal como funcionario e usuário
+- `Polimorfismo`: alguns metodos sao reutilizados porem com parametros diferentes
+- `Prepared Statements` : Prevenção de SQL Injection
